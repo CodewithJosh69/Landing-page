@@ -1,0 +1,97 @@
+*{
+margin: 0%;
+padding: 0%;
+text-decoration: none;
+list-style: none;
+font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+background-color: lightgray;
+
+}
+
+
+nav{
+position: fixed;
+background: darkslategrey;
+height: 80px;
+width: 100%;
+z-index: 12;
+}
+
+label.logo{
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul {
+float: right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 3px;
+
+}
+
+.active,a:hover{
+background: burlywood;
+transition: .5s;
+}
+
+.content{
+display: block;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 20px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: whitesmoke;
+padding: 20px;
+border-radius: 7px 13px;margin: 10px;
+background: seagreen;
+}
+.content h1{
+font-size: 35px;
+text-align: center;
+margin-bottom: 10px;
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.content p{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
